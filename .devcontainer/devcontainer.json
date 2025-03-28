@@ -1,0 +1,22 @@
+{
+  "name": "Alpine Ruby",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Shopify.ruby-lsp",
+        "mechatroner.rainbow-csv",
+        "GrapeCity.gc-excelviewer"
+      ],
+      "settings": {
+        "ruby.useLanguageServer": true,
+        "ruby.format": "rubocop",
+        "editor.formatOnSave": true,
+        "ruby.lsp.enabled": true
+      }
+    }
+  },
+  "forwardPorts": []
+}
